@@ -1,11 +1,13 @@
+from vehicle_class import *
 
 class plane:
 # characteristics
-def __init__(self, color, n_passengers):
-    self.car = car
-    self.plane = plane
+    def __init__(self, brand, n_passengers, size_cargo):
+        self.brand = brand
+        self.n_passengers = n_passengers
+        self.size_cargo = size_cargo
 
-def park():
-    return 'parking'
-def honk():
-    return 'beep beep'
+    def take_off(self):
+        return 'Weeeeooooo'
+    def land(self):
+        return 'OOOOOweeee'
