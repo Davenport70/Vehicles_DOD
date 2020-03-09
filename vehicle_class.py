@@ -1,6 +1,6 @@
 # define vehicle class here
 
-class vehicle:
+class Vehicle:
 
 # characteristics
     def __init__(self, size_cargo, chasis, wheels, n_passengers):
