@@ -20,5 +20,8 @@ print(daves_car.park())
 # create 2 planes instances here
 plane1 = plane('emirates', 500, 1000)
 # make plane accelerate and make them brake
-print(plane1.accelaration())
+print(plane1.acceleration())
+print(plane1.brakes())
+print(plane1.take_off())
+print(plane1.brakes())
 # make plane fly and land

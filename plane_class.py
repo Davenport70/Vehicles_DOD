@@ -1,6 +1,6 @@
 from vehicle_class import *
 
-class plane:
+class plane(vehicle):
 # characteristics
     def __init__(self, brand, n_passengers, size_cargo):
         self.brand = brand

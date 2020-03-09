@@ -2,7 +2,7 @@
 from vehicle_class import *
 
 # design car class here and make it inherit vehicle
-class car:
+class car(vehicle):
 # characteristics
     def __init__(self, brand, horsepower, max_speed, n_doors):
         self.brand = brand
